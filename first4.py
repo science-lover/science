@@ -1,4 +1,4 @@
-odd=set([x*1+2 for x in range(0, 5)])
+odd=set([x*2+1 for x in range(0, 5)])
 
 primes=set()
 
@@ -13,9 +13,9 @@ for i in range(2, 10):
    if i%j==0:
        f=1
    j+=1   
-if f==0:
+ if f==0:
 
-   primes.add(i)
+    primes.add(i)
 
 print("Odd Numbers:", odd)
 
